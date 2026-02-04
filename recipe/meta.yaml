@@ -1,6 +1,6 @@
 {% set name = "plothist_utils" %}
 {% set version = "0.0.2" %}
-{% set python_min = "3.9" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -35,7 +35,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/0ctagon/plothist_utils
+  home: https://github.com/8-hat/plothist_utils
   summary: Utilities for the plothist package
   license: BSD-3-Clause
   license_file: LICENSE

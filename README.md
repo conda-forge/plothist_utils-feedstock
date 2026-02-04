@@ -3,7 +3,7 @@ About plothist_utils-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/plothist_utils-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/0ctagon/plothist_utils
+Home: https://github.com/8-hat/plothist_utils
 
 Package license: BSD-3-Clause
 
