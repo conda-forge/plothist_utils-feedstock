@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -35,7 +35,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/8-hat/plothist_utils
+  home: https://github.com/8-hat/plothist-utils
   summary: Utilities for the plothist package
   license: BSD-3-Clause
   license_file: LICENSE
