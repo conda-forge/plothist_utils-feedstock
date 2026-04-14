@@ -1,4 +1,4 @@
-{% set name = "plothist_utils" %}
+{% set name = "plothist-utils" %}
 {% set version = "0.0.3" %}
 {% set python_min = "3.10" %}
 
@@ -7,13 +7,13 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/plothist_utils-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 1547ce247ebec3937fb99b54a184fc4fcbfa2ce36dac87d83ea4d768d9d43783
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -27,7 +27,7 @@ requirements:
 
 test:
   imports:
-    - plothist_utils
+    - plothist-utils
   commands:
     - pip check
   requires:
@@ -35,7 +35,7 @@ test:
     - python {{ python_min }}
 
 about:
-  home: https://github.com/8-hat/plothist_utils
+  home: https://github.com/8-hat/plothist-utils
   summary: Utilities for the plothist package
   license: BSD-3-Clause
   license_file: LICENSE
