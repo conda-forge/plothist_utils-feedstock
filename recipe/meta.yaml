@@ -1,4 +1,4 @@
-{% set name = "plothist-utils" %}
+{% set name = "plothist_utils" %}
 {% set version = "0.0.3" %}
 {% set python_min = "3.10" %}
 
